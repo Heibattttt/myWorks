@@ -11,13 +11,14 @@ The goal is to help identify plant diseases quickly using computer vision.
 ## Demo Screenshots
 
 **Healthy Leaf**  
-![Healthy](screenshots/Healty Examples.png)
+![Healthy](screenshots/Healty Example.png)
 
 **Early Blight Leaf**  
 ![Early Blight](screenshots/EarlyBLight.png)
 
 **Late Blight Leaf**  
-![Late Blight](screenshots/LAte Blight.png)
+![Late Blight](screenshots/Late Blight.png)
+
 
 ## Technologies Used
 - Python
