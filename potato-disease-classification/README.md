@@ -11,13 +11,13 @@ The goal is to help identify plant diseases quickly using computer vision.
 ## Demo Screenshots
 
 **Healthy Leaf**  
-![Healthy](screenshots/Healty Example.png)
+![Healthy](screenshots/Healty.png)
 
 **Early Blight Leaf**  
 ![Early Blight](screenshots/EarlyBLight.png)
 
 **Late Blight Leaf**  
-![Late Blight](screenshots/Late Blight.png)
+![Late Blight](screenshots/LateBlight.png)(screenshots/Late Blight.png)
 
 
 ## Technologies Used
