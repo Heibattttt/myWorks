@@ -8,6 +8,16 @@ The goal is to help identify plant diseases quickly using computer vision.
 
 ## Live Demo
 🔗 https://graceful-conkies-e2e91e.netlify.app/
+## Demo Screenshots
+
+**Healthy Leaf**  
+![Healthy](screenshots/Healty Examples.png)
+
+**Early Blight Leaf**  
+![Early Blight](screenshots/EarlyBLight.png)
+
+**Late Blight Leaf**  
+![Late Blight](screenshots/LAte Blight.png)
 
 ## Technologies Used
 - Python
