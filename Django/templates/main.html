@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+   <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
+
+  <!-- Icon - IconMonster -->
+
+  
+
+  <!-- Dev Search UI -->
+  <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
+
+  <title>DevSearch - Connect with Developers!</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+   
+{% include 'navbar.html' %}
+
+
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% block content %}
+
+{% endblock content %}
+
+  <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html> 
+
+
+
+
+
+
+
