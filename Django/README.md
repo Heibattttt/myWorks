@@ -17,7 +17,7 @@ StudyBuddy is a comprehensive Django-based social platform designed for students
 
 ### Dashboard & Activity Feed
 The main hub where users can browse topics and see recent community activity.
-![Dashboard](image_fcc65e.png)
+![Dashboard](m1.png)
 
 ### Room Discussion
 A dedicated space for users to chat and collaborate on specific subjects.
