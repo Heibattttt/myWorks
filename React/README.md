@@ -1,12 +1,48 @@
-# React + Vite
+# 🛒 Amazon-Style E-Commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional e-commerce application built with **React** and **Vite**, featuring a dynamic shopping cart and real-time checkout calculations.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Product Catalog:** A clean grid layout displaying various products with price and star ratings.
+*   **Interactive Cart:** Users can select quantities and add items to their cart directly from the home page.
+*   **Smart Checkout:** A detailed review page where users can update quantities, delete items, and choose between different delivery options.
+*   **Order Summary:** Real-time calculation of items, shipping, and a **10% estimated tax**.
+*   **Order History:** A dedicated page to track past orders, including Order IDs and delivery dates.
 
-## Expanding the ESLint configuration
+## 📸 Project Previews
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Main Storefront
+The home page features a searchable product list with "Add to Cart" functionality.
+![Storefront](p1.jpg)
+
+### Checkout Logic
+The checkout page handles complex delivery options and price summaries.
+![Checkout](3.png)
+
+### Tracking & Orders
+Users can view their order history and track packages.
+![Orders](p2.png)
+
+## 🛠️ Calculation Logic (Example)
+
+The app ensures financial accuracy during the checkout process:
+*   **Items Total:** Sum of all product prices multiplied by their quantity.
+*   **Shipping:** Flat fees based on the user's choice (e.g., **$4.99** or **$9.99**).
+*   **Tax:** **10%** calculation added to the subtotal before the final order total.
+    *   *Example:* If your total before tax is **$90.72**, the app calculates an estimated tax of **$9.07** to reach a final total of **$99.79**.
+
+## 🚀 Getting Started
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/Heibattttt/myWorks.git](https://github.com/Heibattttt/myWorks.git)
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the App:**
+    ```bash
+    npm run dev
+    ```
