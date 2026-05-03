@@ -21,11 +21,11 @@ The main hub where users can browse topics and see recent community activity.
 
 ### Room Discussion
 A dedicated space for users to chat and collaborate on specific subjects.
-![Chat Room](input_file_0.png)
+![Chat Room](m3.png)
 
 ### Creating a Room
 Simple and intuitive interface for starting a new study group.
-![Create Room](input_file_2.png)
+![Create Room](m2.png)
 
 ## 🛠️ Tech Stack
 
