@@ -14,7 +14,7 @@ A fully functional e-commerce application built with **React** and **Vite**, fea
 
 ### Main Storefront
 The home page features a searchable product list with "Add to Cart" functionality.
-![Storefront](p1.jpg)
+![Storefront](p1.png)
 
 ### Checkout Logic
 The checkout page handles complex delivery options and price summaries.
